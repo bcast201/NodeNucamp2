@@ -23,7 +23,7 @@ const partnerSchema = new Schema({
     description: {
         type: String,
         required: true
-},
+}
 });
 
 const Partner = mongoose.model('Partner', partnerSchema);
